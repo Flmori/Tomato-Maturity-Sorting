@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Environment variables
+.env
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Model outputs & artifacts
+output/models/
+output/plots/
+output/reports/
+output/cropped/
+
+# Logs
+*.log
+logs/
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyTorch / TensorFlow / ML artifacts
+*.pt
+*.pth
+*.h5
+*.pb
+*.onnx
+*.tflite
+*.pkl
+*.pickle
+checkpoints/
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# Coverage
+.coverage
+htmlcov/
